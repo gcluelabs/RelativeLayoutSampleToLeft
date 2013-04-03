@@ -2,43 +2,50 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/background"
-    >
-	<TextView  
-	android:id="@+id/Text01"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/hello"
-    	android:background="#ff0000"
-    	android:layout_alignParentTop="true"
-       android:layout_alignParentLeft="true"
-    />
-    <TextView  
-    	android:id="@+id/Text02"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/hello"
-    	android:background="#00ff00"
-    	android:layout_alignParentTop="true"
-       android:layout_alignParentRight="true"
-    />
-    <TextView  
-    	android:id="@+id/Text03"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/hello"
-    	android:background="#0000ff"
-    	android:layout_alignParentBottom="true"
-       android:layout_alignParentLeft="true"
-    />
-    <TextView  
-    	android:id="@+id/Text04"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:text="@string/hello"
-    	android:background="#ff00ff"
-    	android:layout_alignParentBottom="true"
-       android:layout_alignParentRight="true"
-    />
-  
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/Text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff0000"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/Text02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00ff00"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/Text03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#0000ff"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/Text04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#ff00ff"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/Text05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Text01"
+        android:background="#ff00ff"
+        android:text="@string/hello" />
+
 </RelativeLayout>
