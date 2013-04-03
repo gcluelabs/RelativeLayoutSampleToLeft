@@ -5,27 +5,40 @@
     android:background="@drawable/background"
     >
 	<TextView  
+	android:id="@+id/Text01"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="@string/hello"
     	android:background="#ff0000"
+    	android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
     />
     <TextView  
+    	android:id="@+id/Text02"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="@string/hello"
-    	android:background="#ff0000"
+    	android:background="#00ff00"
+    	android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
     />
     <TextView  
+    	android:id="@+id/Text03"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="@string/hello"
-    	android:background="#ff0000"
+    	android:background="#0000ff"
+    	android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
     />
     <TextView  
+    	android:id="@+id/Text04"
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:text="@string/hello"
-    	android:background="#ff0000"
+    	android:background="#ff00ff"
+    	android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
     />
+  
 </RelativeLayout>
